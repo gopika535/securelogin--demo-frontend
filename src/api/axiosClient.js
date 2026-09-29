@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "http://securelogin-demo-backend-production.up.railway.app";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://securelogin--demo-backend-production.up.railway.app";
 
 const axiosClient = axios.create({
   baseURL: API_BASE_URL,
